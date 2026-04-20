@@ -60,7 +60,7 @@ src/
 
 
 ## Prerequisites
-```sh 
+
 - Java 17 
 - Maven
 - IntelliJ IDEA or any other preferred IDE
