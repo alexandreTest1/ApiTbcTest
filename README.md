@@ -38,3 +38,25 @@ javaBASE_URL        = "https://apigw.tbcbank.ge"
 Remittance_URL  = "https://tbcbank.ge/ka/other-products/money-transfers"
 Treasury_URL    = "https://tbcbank.ge/ka/treasury-products?amount=100&ccyFrom=USD&ccyTo=GEL"
 ბრაუზერი ეშვება headless=false რეჟიმში slowMo(100ms)-ით — საჭიროების შემთხვევაში BaseTest.java-ში შეიძლება შეცვლა.
+
+src/
+├── main/java/ge/tbc/
+│   ├── data/
+│   │   └── Constants.java          # URL-ები და endpoint-ები
+│   ├── models/
+│   │   ├── RemittanceSegment.java  # Remittance API მოდელი
+│   │   └── TreasurySegment.java    # Treasury API მოდელი
+│   ├── pages/
+│   │   ├── RemittancePage.java     # Playwright locator-ები (Remittance)
+│   │   └── TreasuryPage.java       # Playwright locator-ები (Treasury)
+│   ├── steps/
+│   │   ├── api/
+│   │   │   ├── MoneyTransferApiSteps.java   # Remittance API ლოგიკა
+│   │   │   └── ForwardRatesApiSteps.java    # Treasury API ლოგიკა
+│   │   └── ui/
+│   │       ├── RemittancePageSteps.java     # Remittance UI ლოგიკა
+│   │       └── TreasuryPageSteps.java       # Treasury UI ლოგიკა
+│   └── utils/
+│       └── BaseTest.java           # Playwright კონფიგურაცია
+└── test/java/ge/tbc/
+    └── Tests.java                  # ტესტ კლასი
