@@ -87,5 +87,6 @@ mvn test
 # კონკრეტული ტესტი
 mvn test -Dtest=Tests#moneyTransferTest
 mvn test -Dtest=Tests#treasuryRatesTest
-``` using Playwright and POM (Page Object Model). The framework supports UI automation, and the tests are written in Java using TestNG.
+``` using Playwright, RestAssured and POM (Page Object Model). The framework supports UI and Api automation, and the tests are written in Java using ტექნოლოგიები
+ბიბლიოთეკადანიშნულებაREST AssuredAPI ტესტირებაPlaywright (Java)UI ბრაუზერის ავტომატიზაციაTestNGტესტების მართვაJacksonJSON დესერიალიზაციაHamcrestAssertion-ები.
 
