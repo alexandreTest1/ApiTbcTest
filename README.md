@@ -1,6 +1,7 @@
 # TBC Automation Project
 
 ტესტები
+```sh 
 1. moneyTransferTest
 Remittance გვერდის ტესტი — ამოწმებს გადარიცხვის სისტემების ინფორმაციას.
 რას ამოწმებს:
