@@ -33,7 +33,7 @@ Treasury_URL    = "https://tbcbank.ge/ka/treasury-products?amount=100&ccyFrom=US
 
 ## Project Structure
 ```
-
+```sh 
 src/
 ├── main/java/ge/tbc/
 │   ├── data/
