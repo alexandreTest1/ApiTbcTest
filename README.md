@@ -1,13 +1,4 @@
 # TBC Automation Project
-##
-ტექნოლოგიები
-ბიბლიოთეკა              დანიშნულება 
-REST Assured            API ტესტირება
-Playwright (Java)       UI ბრაუზერის ავტომატიზაცია
-TestNG                  ტესტების მართვა
-Jackson                 JSON დესერიალიზაცია
-Hamcrest                Assertion-ები
-
 
 ტესტები
 1. moneyTransferTest
@@ -87,7 +78,8 @@ mvn test
 # კონკრეტული ტესტი
 mvn test -Dtest=Tests#moneyTransferTest
 mvn test -Dtest=Tests#treasuryRatesTest
-``` using Playwright, RestAssured and POM (Page Object Model). The framework supports UI and Api automation, and the tests are written in Java using:
+``` using Playwright, RestAssured and POM (Page Object Model). 
+The framework supports UI and Api automation, and the tests are written in Java using:
 ტექნოლოგიები
 ბიბლიოთეკა              დანიშნულება 
 REST Assured            API ტესტირება
