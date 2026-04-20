@@ -1,7 +1,12 @@
 # TBC Automation Project
 
 ტექნოლოგიები
-ბიბლიოთეკადანიშნულებაREST AssuredAPI ტესტირებაPlaywright (Java)UI ბრაუზერის ავტომატიზაციაTestNGტესტების მართვაJacksonJSON დესერიალიზაციაHamcrestAssertion-ები
+ბიბლიოთეკა              დანიშნულებაJSON 
+REST Assured            API ტესტირება
+Playwright (Java)       UI ბრაუზერის ავტომატიზაცია
+TestNG                  ტესტების მართვა
+Jackson                 JSON დესერიალიზაცია
+Hamcrest                Assertion-ები
 
 
 ტესტები
